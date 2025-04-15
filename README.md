@@ -29,6 +29,21 @@ client = Client(
     currency,
 )
 
+ from mpg import Client
+
+merchant_id = 'Y00000112'
+access_code = 'admin'
+secret = 'qwerty123'
+currency = 'KES' 
+
+
+client = Client(
+    merchant_id,
+    access_code,
+    secret,
+    currency,
+)
+
 
 ```
 

@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="python3d-mpg",  # Replace with your own username
     version="0.0.1",
-    author="Mundia Mwala",
-    author_email="mundiamwa@gmail.com",
+    author="Dennis Satia",
+    author_email="acloudbank@gmail.com",
     description="Python MPG(Mastercard Payment Gateway) package.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/glidematrix/python-mpg",
+    url="https://github.com/forcesnedworkglobal/python3d-mpg",
     packages=setuptools.find_packages(),
     install_requires=[
         'requests',
