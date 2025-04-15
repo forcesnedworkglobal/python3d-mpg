@@ -3,7 +3,7 @@ python:
   - "3.6"
 
 install:
-  - pip install git+https://git@github.com/glidematrix/python-mpg.git
+  - pip install git+https://github.com/forcesnedworkglobal/python3d-mpg.git
 
 script:
   - python -m unittest tests.test_gateway
